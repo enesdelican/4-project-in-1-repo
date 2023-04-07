@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+/* Navbar  */
+#navbar {
+  width: 300px;
+  background-color: #333; /* Navbar arka plan rengi */
+  position: fixed;
+  height: 100%;
+  border-right: 3px solid #006d49cc;
+}
+  
+#navbar header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+  
+.nav-link {
+  display: block;
+  padding: 8px 24px;
+  color: #fff; /* Navbar metin rengi */
+  text-decoration: none;
+  text-align: left; /* Metinleri sol tarafa hizala */
+  line-height: 2rem;
+  border-top: 1px solid  #fff;
+}
+  
+.nav-link:hover {
+  background-color: #555; /* Mouse üzerine geldiğinde renk değiştir */
+}
+
+h1 {
+  margin: 20px auto;
+  color: #fff;
+  font-size: 1.8em;
+}
+
+/* Main Text */
+main {
+  display: block;
+  margin-left: 350px;
+}
+
+section header {
+  padding-bottom: 20px;
+  font-size: 2em;
+}
+
+header#first-header {
+  padding: 20px 0 20px 0;
+}
+
+p, li {
+  line-height: 1.6em;
+  font-size: 0.95em;
+  color: #555;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+ul {
+  padding-left: 4rem;
+}
+
+li {
+  padding-left: 0;
+}
+
+code {
+  display: block;
+  position: relative;
+  white-space: pre-line;
+  margin: 20px 0;
+  background-color: #f7f7f7;
+  padding: 10px 0 15px 1rem;
+  width: 1400px;
+  border-radius: 5px;
+  left: 30px;
+  color: #555;
+  font-size: 0.95em;
+}
+
+@media (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+    width: 100%;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  main {
+    overflow: hidden;
+    margin: 0;
+  }
+  #navbar {
+    position: relative;
+    width: 100%;
+    height: max-content;
+  }
+  #navbar a {
+    width: 100%;
+  }
+  main {
+    display: block;
+    margin: 0;
+    padding-left: 20px;
+  }
+}
