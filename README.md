@@ -1,5 +1,5 @@
-# 5-project-in-1-repo
-5 freecodecamp projects in 1 repository.
+# 4-project-in-1-repo
+4 freecodecamp projects in 1 repository.
 
 PROJECT 1
 
